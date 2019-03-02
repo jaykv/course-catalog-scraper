@@ -1,0 +1,3 @@
+<course code="(.*?)">.*?"course_credits">(.*?)<\/div>.*?"course_codetitle">(.*?)<\/div>.*<\/course>
+
+{"course_code": "\1", "course_credits": "\2", "course_title": "\3", "course_desc": ""},
